@@ -84,6 +84,8 @@ ul, ol { list-style: none; }
 .work__tag { font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
 .work__title { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
 .work__text { color: var(--muted); font-size: .92rem; }
+.work__plan { display: block; margin-top: 4px; color: var(--muted); }
+.work__plan--gold { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; }
 
 /* Planos */
 .perks { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 28px; margin-top: 18px; color: var(--muted); font-size: .9rem; }
