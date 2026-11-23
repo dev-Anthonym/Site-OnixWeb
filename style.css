@@ -169,6 +169,7 @@ ul, ol { list-style: none; }
 @media (max-width: 980px) {
   .plans, .portfolio { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
   .plan--featured { order: -1; }
+  .plan[data-plan="essencial"] { order: 1; }
   .plan__desc, .plan__price, .plan__note { min-height: 0; }
   .steps { grid-template-columns: repeat(2, 1fr); }
   .addon { flex-direction: column; align-items: flex-start; }
