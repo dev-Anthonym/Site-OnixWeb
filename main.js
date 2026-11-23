@@ -2,7 +2,7 @@
    CONFIGURAÇÃO: troque pelo seu número com DDI + DDD (só números)
    Exemplo: 5511987654321
    =========================================================== */
-const WHATSAPP = "5500000000000";
+const WHATSAPP = "5531996916719";
 
 // Links do WhatsApp com mensagem pronta
 document.querySelectorAll(".js-whatsapp").forEach((el) => {
@@ -45,3 +45,6 @@ document.querySelectorAll(".switch__btn").forEach((btn) => {
 
 // Ano no rodapé
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// Abrir os planos já no Combo 6 meses
+document.querySelector('.switch__btn[data-mode="combo"]').click();
